@@ -1,0 +1,21 @@
+.key {
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45), 5px 5px 9px rgba(94,104,121,0.3)
+}
+.key:hover{
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: inset -5px -5px 9px  rgba(255, 255, 255, 0.45), inset 5px 5px 9px rgba(94,104,121,0.3)
+}
+.closed {
+    display: block
+}
+.close {
+    display: block;
+}
+
+
+

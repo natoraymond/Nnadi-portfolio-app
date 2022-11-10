@@ -1,0 +1,135 @@
+.low {
+    width: 80%;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+ @keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+
+.home-about-social {
+    text-align: center;
+    padding-top: 25px;
+    color: #414141 ;
+  }
+  
+  .home-about-social-links {
+    justify-content: center !important;
+    padding-top: 15px !important;
+    display: inline-block !important;
+    position: relative !important;
+    padding-inline-start: 0 !important;
+  }
+  
+  .home-social-icons {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 1.2em ;
+    line-height: 2em ;
+    border-radius: 50% ;
+    transition: 0.5s;
+    white-space: nowrap;
+    
+    
+  }
+  
+  .home-social-icons::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #5b585c;
+    transition: 0.5s;
+    transform: scale(0.9);
+    z-index: -1;
+  }
+  
+  .home-social-icons:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #414141;
+  }
+  
+  .home-social-icons:hover {
+    color: #414141;
+    box-shadow: 0 0 5px #414141;
+    text-shadow: 0 0 2px #414141;
+  }
+  
+  .social-icons {
+    display: inline-block;
+    padding-left: 15px;
+    height: 70px;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 25px;
+  }
+  
+  .icon-colour {
+    color: #ffffff;
+  }
+
+  .social-icon {
+    margin-top: 10px;
+  }
+  .grip{
+    font-size: 100px;
+    color: red;
+  }
+
+  .btn2{
+   padding: 15px 40px;
+    float: right;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    font-size: 20px;
+    background: linear-gradient(25deg,rgba(1,60,210,0.753),rgb(255,72,6));
+    cursor: pointer;
+    color: #fff;
+    border-radius: 1px solid #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+
+  .btn2:hover{
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: inset -5px -5px 9px  rgba(255, 255, 255, 0.45), inset 5px 5px 9px rgba(94,104,121,0.3)
+}
+
+.img {
+  background: linear-gradient(45deg,rgb(216,46,9),rgb(62,7,189));
+}

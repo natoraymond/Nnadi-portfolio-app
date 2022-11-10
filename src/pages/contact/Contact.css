@@ -1,0 +1,67 @@
+.contact-section {
+    background-color: blue;
+    width: 500%;
+    align-items: center;
+}
+.phone{
+    margin-top: 20%;
+    display: flexbox;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45), 5px 5px 9px rgba(94,104,121,0.3)
+}
+
+.top{
+    text-align: center;
+    margin-top: 4px;
+}
+.top:hover{
+    inset: 30%;
+}
+
+.cont {
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+.phone:hover {
+    background-color: lightcoral;
+}
+
+.form {
+    margin-top: 20px;
+    padding:12px 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.fullname-input{
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-block: .5rem;
+    outline: none;
+    border: none;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(248,235,235);
+}
+
+.message {
+    padding-bottom: 0rem;
+}
+
+.form-btn {
+    padding: 10px 40px;
+    background: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    color: pink;
+    border-radius: 10px;
+    border: 1px solid pink;
+    text-transform: uppercase;
+}
